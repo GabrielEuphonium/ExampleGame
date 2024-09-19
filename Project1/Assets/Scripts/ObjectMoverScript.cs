@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TransformController : MonoBehaviour
 {
+    //ouh24gh
     private void Update()
     {
         var x = Mathf.PingPong(Time.time, 3);
