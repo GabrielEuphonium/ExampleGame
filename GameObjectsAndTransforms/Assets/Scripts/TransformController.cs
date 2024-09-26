@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class TransformController : MonoBehaviour
 {
-    //ihij
+    //testing
     private void Update()
     {
-        var x = Mathf.PingPong(t: Time.time, 3);
-        var p = new Vector3(x: 0, y: x, z: 0);
-        transform.position = p;
+        var x = Mathf.PingPong(Time.time, 3); transform.position = new Vector3(x, 0, 0);
+
     }
 }
